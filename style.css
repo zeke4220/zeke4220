@@ -78,6 +78,7 @@ main{
 
 /* Gallery codes end */
 
+/* hero background image */
 #home-hero{
 	background-image: url(images/stars.jpg);
 	height: 120px;
@@ -119,9 +120,7 @@ h2{
     float: left;	
 }
 
-blockquote{
 
-}
 
 /****************** Body style code ends ******************/
 
@@ -153,6 +152,7 @@ footer i.fa{
 	margin-right: 8px;
 }
 
+/* the closing logo in the footer */
 .footer-logo{
 	width: 100px;
 	height: auto;
@@ -161,6 +161,7 @@ footer i.fa{
 	paddings: 20px;
 }
 
+/* footer hero backgorund iamge */
 #home-footer{
 	background-image: url(images/stars.jpg);
 	background-size: cover;

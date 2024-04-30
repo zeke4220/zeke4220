@@ -29,8 +29,12 @@
 
 <body onload="startGame()">
 	<header>
+		
+		<!-- opening logo for my website -->
 		<img src="images/logos/code-open-name.png" height="" width="" 
 		alt="My logo for my portfolio" class="logo"> 
+		
+		<!-- navigation -->
 		<nav>
 			<div class="container-fluid">
 				<div class="row">
@@ -68,13 +72,13 @@ one for mobile devices The desktop has the desktop class and the mobile has the 
 				<div class="game-controls desktop">
 					<button class="myButton" onmousedown="accelerate(-0.2)" 
 						onmouseup="accelerate(0.05)">ACCELERATE</button>
-					<button class="myButton">RELAUNCH!</button></a>
+					<button class="myButton" onmousedown="relaunchGame()">RELAUNCH!</button></a>
 				</div>
 					
 				<div class="game-controls mobile">
 				<button class="myButton" ontouchstart="accelerate(-0.2)" 
-					ontouchend="accelerate(0.05)">ACCELERATE</button>
-				<button class="myButton">RELAUNCH!</button></a>
+					ontouchend="accelerate(0.04)">ACCELERATE</button>
+				<button class="myButton" ontouchstart="relaunchGame()">RELAUNCH!</button></a>
 			</div>
 
 <!-- This is the JavaScript for the game it goes into the <main> section 
@@ -225,6 +229,14 @@ underneath the code above-->
       function accelerate(n) {
           myGamePiece.gravity = n;
       }
+	  
+	  <!-- restarts my game -->
+	  function relaunchGame() {
+		clearInterval(myGameArea.interval);
+		myObstacles = [];
+		myGameArea.clear();
+		startGame();
+	  }
    </script>
 			</div>
 		</div>
@@ -239,6 +251,8 @@ underneath the code above-->
 	<footer>
 		<div id="home-footer">
 			<br>
+			
+			<!-- closing logo for my website -->
 			<img src="images/logos/code-close-name.png" height="" width="" 
 				alt="My footer logo for my portfolio" class="footer-logo"> 
 			<br>
