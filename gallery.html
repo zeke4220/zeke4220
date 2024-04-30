@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>Xai's Porfolio::Gallery</title>
+	<meta name="description" content="This is the gallery page of my porfolio. 
+										Contains photos from my life, including
+										my families,friends, and events I've been
+										to.">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+	<!--------------------------------main starts ----------------------------->
+<body>
+	<header>
+		<img src="images/logos/code-open-name.png" height="" width="" 
+		alt="My logo for my portfolio" class="logo"> 
+		<nav>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-3">
+						<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a></li>
+					</div>
+					<div class="col-sm-3">
+						<li><i class="fa fa-file-text" aria-hidden="true"></i><a href="resume.html">Resume</a></li>
+					</div>
+					<div class="col-sm-3">
+						<li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="game.html">Game</a></li>
+					</div>
+					<div class="col-sm-3">		
+						<li><i class="fa fa-folder-open" aria-hidden="true"><a href="gallery.html">Gallery</a></i></li>
+					</div>
+				</div>
+			</div>		
+		</nav>	
+		<div id="home-hero">
+			<h1>Gallery</h1>		
+		</div>
+	</header>
+
+	<!--------------------------------main starts ----------------------------->	
+	<main>
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2">
+				<i class="fa fa-camera" aria-hidden="true"></i>
+			</div>
+			<div class="col-sm-10">
+				<blockquote>This are photos from my life. Photos of my family whom
+							I love dearly. Also include some events I've gone to 
+							throughout the year.</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="gallery">
+
+					<div class="preview">
+						<img id="preview" src="images/gallery/family.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+					</div>
+
+					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+						<img onclick="document.getElementById('preview').src= document.getElementById('img1').src;" id="img1" src="images/gallery/family.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/gallery/christmas-family.jpg" alt=""  />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src=
+						"images/gallery/brothers.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src=
+						"images/gallery/july4th.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/gallery/nieces-nephews.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src=
+						"images/gallery/lantern.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src=
+						"images/gallery/lantern-2.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src=
+						"images/gallery/lantern-3.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src=
+						"images/gallery/lantern-4.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img12').src;" id="img12" src="images/gallery/lantern-festival-2.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img13').src;" id="img13" src="images/gallery/lantern-festival-3.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img14').src;" id="img14" src="images/gallery/lantern-festival-4.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img15').src;" id="img15" src=
+						"images/gallery/songkran.jpg" alt="" />				
+						<img onclick="document.getElementById('preview').src = document.getElementById('img17').src;" id="img17" src=
+						"images/gallery/songkran-3.jpg" alt="" />
+						
+		</div>
+	</div>
+		
+	</main>
+	
+	<!------------------------------- Main ends ----------------------------->
+	
+	<!------------------------------- Footer Starts --------------------------------->
+	<footer>
+		<div id="home-footer">
+			<br>
+			<img src="images/logos/code-close-name.png" height="" width="" 
+				alt="My footer logo for my portfolio" class="footer-logo"> 
+			<br>
+		<div class="container-fluid">
+			<div class="row footer1000">		
+				<div class="col-sm-6">
+						<blockquote>This website has been an excercise for my HTML
+									class at Saint Paul College that I will be
+									publishing on GitHub for my Final Project.
+									</blockquote>
+					</div>					
+					<div class="col-sm-6">
+						<ul>
+							<li><a href="mailto:xai.cheng@my.saintpaul.edu target="_blank">
+								<i class="fa fa-envelope" aria-hidden="true"></i>Email Me</a></li>		
+							<li><a href="https://www.linkedin.com/in/xai-cheng-369667255/" target="_blank">
+								<i class="fa fa-linkedin-square" aria-hidden="true"></i>Connect on LinkedIn</a></li>
+							<li><a href="https://github.com/zeke4220" target="_blank">
+								<i class="fa fa-github" aria-hidden="true"></i>Connect on GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<small>Written by Xai Cheng for Saint Paul College HTML Fundamental
+					course. Part of his portfolio of his Final Project.</small>
+			<br>
+			<small>&copy; Xai Cheng. All rights reserved</small>
+		</div>
+	</footer>
+
+	<!------------------------------ Footer starts ------------------------------>
+	
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+<!------------------------------------- body ends ----------------------------------->
+</html>
