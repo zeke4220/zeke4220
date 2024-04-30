@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
+
+/******************* Body style codes ******************/
+
+body{
+	font-family: 'Labrada', serif;
+	color: black;
+	margin: 0;
+	background-color: #cfe2f3;
+	border-top: 10px solid #014B62;
+	border-bottom: 10px solid #014B62;
+}
+/******************* Body style codes end ******************/
+
+/****************** Header style codes  ******************/
+header {
+	background-image: url(images/stars.jpg);
+}
+
+.logo{
+	max-width: 300px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	paddings: 20px;
+}
+/****************** Header style codes ends ******************/
+
+/****************** Body style codes ******************/
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px auto;
+}
+
+/********************* codes for my resume **********************/
+.resume {
+	border: 1px solid #dddddd;
+	box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.resume-content {
+	border-left: solid 6px #eeeeee;
+}
+
+.resume blockquote {
+	padding-left: 10px;
+}
+/* codes for my resume end */
+
+/******************** Gallery codes***********************/
+.gallery .preview{
+    width: 100%;
+    height: auto;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* Gallery codes end */
+
+#home-hero{
+	background-image: url(images/stars.jpg);
+	height: 120px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-hero h1{
+	font-family: 'Charm', cursive;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	margin: 0;
+	padding: 50px 0;
+}
+
+
+h1{
+	text-align: center;
+}
+h2{
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	text-align: left;
+	clear: both;
+	color: dark blue;
+}
+
+/* for the picture in my resume */
+.headshot {
+	margin: 0 0 10px 10px; 
+	width: 75%; 
+	height: auto;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;	
+}
+
+blockquote{
+
+}
+
+/****************** Body style code ends ******************/
+
+/****************** Footer style codes ******************/
+
+footer{
+	text-color: white;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	clear: both;
+}
+footer .row footer1000{
+	max-width: 1000px;
+	
+}
+
+footer .col-sm-6 blockquote {
+    color: white; /* Ensures only blockquote elements inside .footer-section are targeted */
+}
+
+footer .footer-bottom {
+	background-color: black;
+	text: white;
+}
+
+footer i.fa{
+	color: white;
+	margin-right: 8px;
+}
+
+.footer-logo{
+	width: 100px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	paddings: 20px;
+}
+
+#home-footer{
+	background-image: url(images/stars.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+small{
+	color: white;
+}
+
+/****************** Nav layout style codes ******************/
+nav{
+	background: url(images/purple_hero_background.jpg);
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	padding: 5px;
+}
+
+nav i.fa {
+	color: white;
+	margin-right: 8px;
+}
+
+/* Nav colors */
+a:link{
+	color: white;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: gray;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: purple;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: red;
+}
+
+/****************** Nav layout style codes ******************/
+
+/* JavaScript Game changes for desktop */
+.game-controls desktop{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: row; /
+}
+
+/* Game codes buttons */
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+.myButton {
+    background-color: purple;
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 15px; 
+}
+/* Game codes button ends*/
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphone */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
