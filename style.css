@@ -133,6 +133,12 @@ footer{
 	padding: 10px;
 	clear: both;
 }
+
+footer ul {
+	list-style-type: none;
+
+}
+
 footer .row footer1000{
 	max-width: 1000px;
 	
@@ -190,7 +196,7 @@ a:link{
 	color: white;
 }
 a:visited{
-	color: purple;
+	color: white;
 }
 a:hover{
 	color: red;
@@ -214,7 +220,7 @@ nav a:link{
 	color: white;
 }
 nav a:visited{
-	color: purple;
+	color: white;
 }
 nav a:hover{
 	color: gray;
